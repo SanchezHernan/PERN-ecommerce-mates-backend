@@ -5,7 +5,7 @@ const cors = require('cors');
 const pool = require('./db.js');
 
 mercadopago.configure({
-    access_token: 'TEST-5028846763437788-051906-1d41f43e02b1a9710e55eb15374e57ee-208951818'
+    access_token: 'YOUR_ACCESS_TOKEN'
 })
 
 
@@ -619,28 +619,12 @@ app.listen(5000, () => {
 })
 
 
-/*fetch('https://api.mercadopago.com/v1/payments?access_token=TEST-5028846763437788-051906-1d41f43e02b1a9710e55eb15374e57ee-208951818', {
-        method: 'POST',
-        body: payment_data,
-    })
-    .then((res) =>{
-        res.json()
-    })
-    .then((data)=>{
-        console.log(data.status)
-        res.send(data)
-    })
-  });
-  
-  
-  
-  
-  
-    
-  */
 
+  
+  
+  
 
-
+//usuarios de prueba
 USERS = [{
     "rol": 'vendedor',
     'PulicKey': 'APP_USR-d3dcfda9-8f91-47e8-9c7c-f09c98b3a09d',

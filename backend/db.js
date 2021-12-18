@@ -1,6 +1,6 @@
-const user = 'postgres'
-const password = 'febrerap5'
-const database = 'BDVentas'
+const user = 'YOUR_USER'
+const password = 'YOUR_PASSWORD'
+const database = 'YOUR_DATABASE'
 
 const Pool = require('pg').Pool;
 
